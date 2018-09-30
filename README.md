@@ -37,3 +37,8 @@ npm package seed, package to min, lib, umd, es
 
 ### release
   use npm cmd to release to npm
+- npm run release
+1. input username
+2. input password
+3. input email
+4. success

@@ -26,7 +26,8 @@
     "build:min:cjs": "rimraf dist/index.cjs.min.js && rollup -c ./rollup-config/rollup.config.cjs.js",
     "build:min:es": "rimraf dist/index.es.min.js && rollup -c ./rollup-config/rollup.config.es.js",
     "build:min:iife": "rimraf dist/index.iife.min.js && rollup -c ./rollup-config/rollup.config.iife.js",
-    "build:min:umd": "rimraf dist/index.umd.min.js && rollup -c ./rollup-config/rollup.config.umd.js"
+    "build:min:umd": "rimraf dist/index.umd.min.js && rollup -c ./rollup-config/rollup.config.umd.js",
+    "release": "npm login && npm publish"
   },
   "keywords": [
     "npm",
