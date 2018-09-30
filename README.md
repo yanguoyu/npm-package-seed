@@ -36,5 +36,4 @@ npm package seed, package to min, lib, umd, es
   npm run build:umd
 
 ### release
-  use semantic-release to release to npm
-  test 1 /doc/ccc
+  use npm cmd to release to npm
