@@ -27,7 +27,7 @@
     "build:min:es": "rimraf dist/index.es.min.js && rollup -c ./rollup-config/rollup.config.es.js",
     "build:min:iife": "rimraf dist/index.iife.min.js && rollup -c ./rollup-config/rollup.config.iife.js",
     "build:min:umd": "rimraf dist/index.umd.min.js && rollup -c ./rollup-config/rollup.config.umd.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "NPM_USERNAME=yanguoyu NPM_PASSWORD=NPM_PASSWORD NPM_EMAIL=841185308@qq.com semantic-release"
   },
   "keywords": [
     "npm",

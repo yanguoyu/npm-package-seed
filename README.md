@@ -34,3 +34,6 @@ npm package seed, package to min, lib, umd, es
   npm run build:systemjs
 - umd
   npm run build:umd
+
+### release
+  use 
