@@ -36,4 +36,4 @@ npm package seed, package to min, lib, umd, es
   npm run build:umd
 
 ### release
-  use 
+  use semantic-release to release to npm
