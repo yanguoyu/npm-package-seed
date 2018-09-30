@@ -2,33 +2,35 @@
 npm package seed, package to min, lib, umd, es
 
 ### build min
-npm run build:min
-  ouput: dist/
-  include: amd,cjs,es,iife,umd
-amd
+  it use rollup to build
+- npm run build:min
+  - ouput: dist/
+  - include: amd,cjs,es,iife,umd
+- amd
   npm run build:min:amd
-cjs
+- cjs
   npm run build:min:cjs
-es
+- es
   npm run build:min:es
-iife
+- iife
   npm run build:min:iife
-umd
+- umd
   npm run build:min:umd
 
 ### build dir
-npm run build
-  ouput: amd/; cjs/; commonjs/; es/; systemjs/; umd/;
-  include: amd,cjs,commonjs,es,systemjs,umd
-amd
+  it use babel to build
+- npm run build
+  - ouput: amd/; cjs/; commonjs/; es/; systemjs/; umd/;
+  - include: amd,cjs,commonjs,es,systemjs,umd
+- amd
   npm run build:amd
-cjs
+- cjs
   npm run build:cjs
-commonjs
+- commonjs
   npm run build:commonjs
-es
+- es
   npm run build:es
-systemjs
+- systemjs
   npm run build:systemjs
-umd
+- umd
   npm run build:umd
