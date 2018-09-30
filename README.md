@@ -35,6 +35,10 @@ npm package seed, package to min, lib, umd, es
 - umd
   npm run build:umd
 
+### test
+- npm run test:all
+  it used to test all type output
+  
 ### release
   use npm cmd to release to npm
 - npm run release
