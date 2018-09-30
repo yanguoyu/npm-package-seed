@@ -37,4 +37,4 @@ npm package seed, package to min, lib, umd, es
 
 ### release
   use semantic-release to release to npm
-  test 1 /doc/
+  test 1 /doc/ccc
