@@ -34,7 +34,7 @@
     "package"
   ],
   "author": "yan",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
