@@ -6,5 +6,10 @@
         "modules": "umd"
       }
     ]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime", {
+      "regenerator": true
+    }]
   ]
 }
